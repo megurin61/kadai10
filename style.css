@@ -1,0 +1,203 @@
+/* 全体のスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2; /* 淡いピンクの背景 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* コンテナ */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* タイトル */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff66b2; /* 鮮やかなピンク */
+    margin-bottom: 20px;
+}
+
+/* フォームのスタイル */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+form input, form select, form button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ff99cc;
+    font-size: 1rem;
+}
+
+form input[type="text"],
+form input[type="url"],
+form input[type="password"] {
+    background-color: #ffe6f2; /* 入力欄もピンク */
+    color: #333;
+}
+
+form button {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff99cc;
+}
+
+/* ブックマーク一覧のスタイル */
+.bookmark-list {
+    list-style: none;
+    padding: 0;
+}
+
+.bookmark-list li {
+    background-color: #fff0f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookmark-list a {
+    color: #ff66b2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bookmark-list a:hover {
+    text-decoration: underline;
+}
+
+/* 評価表示のスタイル */
+.bookmark-list span {
+    color: #ff66b2;
+    font-size: 1.2rem;
+}
+
+/* 削除ボタンのスタイル */
+.delete-btn {
+    background-color: #ff66b2;
+    color: rgb(2, 2, 2); /* ここで文字色を白に指定 */
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+
+.delete-btn:hover {
+    background-color: #ff99cc;
+}
+
+/* 管理画面 */
+h1, h2 {
+    color: #ff66b2;
+    text-align: center;
+}
+
+a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ログインフォーム、登録フォームの装飾 */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1rem;
+    color: #ff66b2;
+}
+
+/* ログアウトリンク */
+a.logout {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a.logout:hover {
+    background-color: #ff99cc;
+}
+/* ブックマークテーブルのスタイル */
+.bookmark-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.bookmark-table th, .bookmark-table td {
+    padding: 12px 15px;
+    border: 1px solid #ff99cc;
+}
+
+.bookmark-table th {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+}
+
+.bookmark-table td {
+    background-color: #fff0f5;
+}
+
+.bookmark-table td a {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+.bookmark-table td a:hover {
+    text-decoration: underline;
+}
+
+/* 削除ボタンのスタイル */
+.delete-btn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #ff99cc;
+}
