@@ -8,10 +8,10 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // データベース接続
-$servername = "mysql3101.db.sakura.ne.jp";
-$username = "fabulousjapanese";
+$servername = "";
+$username = "";
 $password = "";
-$dbname = "fabulousjapanese_gs_kadai07";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

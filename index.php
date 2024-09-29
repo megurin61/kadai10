@@ -1,9 +1,9 @@
 <?php
 // MySQLデータベースへの接続
-$servername = "mysql3101.db.sakura.ne.jp";
-$username = "fabulousjapanese";  // phpMyAdminで使っているユーザー名
+$servername = "";
+$username = "";  // phpMyAdminで使っているユーザー名
 $password = "";  // phpMyAdminで設定したパスワード
-$dbname = "fabulousjapanese_gs_kadai07";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
